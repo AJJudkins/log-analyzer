@@ -1,0 +1,12 @@
+Oct 12 08:01:10 host1 sshd[1001]: Accepted password for alice from 192.0.2.10 port 50122 ssh2
+Oct 12 08:05:01 host1 sshd[1002]: Failed password for root from 203.0.113.50 port 40001 ssh2
+Oct 12 08:05:04 host1 sshd[1003]: Failed password for root from 203.0.113.50 port 40002 ssh2
+Oct 12 08:05:07 host1 sshd[1004]: Failed password for admin from 203.0.113.50 port 40003 ssh2
+Oct 12 08:05:10 host1 sshd[1005]: Failed password for invalid user test from 203.0.113.50 port 40004 ssh2
+Oct 12 08:05:13 host1 sshd[1006]: Failed password for root from 203.0.113.50 port 40005 ssh2
+Oct 12 08:05:16 host1 sshd[1007]: Failed password for root from 203.0.113.50 port 40006 ssh2
+Oct 12 08:20:00 host1 sshd[1010]: Failed password for bob from 198.51.100.7 port 41000 ssh2
+Oct 12 09:30:00 host1 sshd[1011]: Failed password for bob from 198.51.100.7 port 41001 ssh2
+Oct 12 09:45:12 host1 sshd[1012]: Accepted publickey for bob from 198.51.100.7 port 41002 ssh2
+Oct 12 10:00:00 host1 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/ls
+Oct 12 10:15:00 host1 CRON[2000]: pam_unix(cron:session): session opened for user root
