@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-analyzer"
+version = "0.2.0"
+description = "Streaming auth.log / nginx / apache log analyzer that flags failed-login bursts."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+log-analyzer = "analyzer:main"
+
+[tool.setuptools]
+py-modules = ["analyzer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
